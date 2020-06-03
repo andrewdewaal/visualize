@@ -1,12 +1,14 @@
 import sys
 import os
 
+# TODO - Get byte array
 def getFileContents(filename):
     file = open(filename, 'r')
     content = file.read()
     file.close()
     return content
 
+# TODO - see what happens when we turn the byte array into an RGB representation
 def writeFileContents(filename, fileContents):
     file = open(filename, 'w')
     file.write(fileContents)
