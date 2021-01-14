@@ -1,7 +1,7 @@
 import sys
 import os
 
-# TODO - Get byte array
+# TODO - Get byte array marko hahahaha
 def getFileContents(filename):
     file = open(filename, 'r')
     content = file.read()
